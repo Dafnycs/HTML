@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Aula 06</title>
+</head>
+<body>
+     <!-- A semÂntica no HTML siginifica usar as tags certas para cada tipo de conteúdo, ajudando navegadores, mecanismos de busca e leitores de tecla a entenderem melhor a estrutura da página-->
+
+     <!-- Benefícios do HTML Semântico--> 
+    <!-- Melhora a acessibilidade (leitores de tela conseguem interpetra melhor) 
+     Melhoa a SEO ( O google entende ,elhor a estrutura do site)
+     Facilita a manutenção do código (código mais organizado e legível)
+     Ajuda na responsividade (tags semânticas trabalham melhor com CSS e JS)-->
+
+    <!-- SEM SEMÂNTICA -->
+    <!--<a href=" # "> Ínicio</a>
+     <a href=" # ">Sobre</a>
+     <p>Texto Principal do site</p>
+     <p>Todos direitos reservados.</p>
+    -->
+
+ <!-- HTML SEMÂNTICO -->
+
+ <header>
+ <!-- O topo do site ou uma seção (logo, tutulo e menu de navegação )-->
+ <nav>
+ <!-- Contém links de navegação para outras partes do site -->
+ <a href="">ínicio</a>
+ <a href="">Sobre</a>
+ </nav>
+     </header>
+     <main>
+     <!-- Contém o conteúdo principal da página -->
+     <p>Texto Principal do Site </p>
+     <h1>Noticas AO VIVO do SESI</h1>
+     <section>
+         <!-- Usa para agrupar conteudos relacionados dentro de uma pagina, geralmente com um titulo indicando que fazem parte de um tema especifico-->
+     <h2>últimas Notícias</h2>
+     <p>Hoje foi anunciado um novo projeto...</p>
+
+      <article>
+        <!-- Representa um conteudo idependente e autocontido, que pode ser distrinuido ou reutilizado separadamente sem perde o sentindo. EX: Postagensblog,noticiais,comentarios de usuários,cards, de produtos, ou artigos de revistas,... -->
+
+         <h3>Os Alunos Amam ir para o SENAI</h3>
+         <p> Descrição ...</p>
+     </article>
+     </section>
+     
+     </main>
+    <footer>
+     <p>Todos os direitos reservados</p>
+     </footer>
+
+     <aside>
+        <!-- TAG usada para conteudos secudarios ou complementares, que nao fazem parte do fluxo principal do documento. Normalmente, ela apara como
+        -Barras Laterais
+        Informações Adicionais
+        Anuncios
+        -->
+        <h3>Vídeos Recomendados</h3>
+        <ul>
+            <li> Como progamar em HTML</li>
+        </ul>
+     </aside>
+
+
+</body>
+</html>
