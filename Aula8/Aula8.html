@@ -22,8 +22,49 @@
         <fieldset>
             <legend>Informações Pessoais</legend>
             <label for="nome">Nome completo:</label>
-            <input type="text" name="Nome" id="Nome" placeholder="Digete seu nome" requirer>
+            <input type="text" name="Nome" id="Nome" placeholder="Digete seu nome" requirer><br>
 
+            <label for="Email">Email:</label>
+            <input type="text" name="Email" id="Email" placeholder="seuemail@euamosenai.com.br" required><br>
+
+            <label for="Idade">Idade:</label>
+            <input type="number" name="Idade" id="Idade" min="18" max="99" ><br>
+        
+            <label for="Data-nascimento:">Data nascimento</label>
+            <input type="date" name="Data-nascimento" id="Data-nascimento"><br>
+
+            <label for="genero">Gênero</label>
+            <select name="genero" id="genero">
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Prefiro_nao_dizer">Prefiro não dizer</option>
+            </select><br>
+
+
+            <label for="Senha">Senha:</label>
+            <input type="password" name="Senha" id="Senha" placeholder="Digite sua senha" required><br>
+
+
+            <fieldset>
+                <legend>Detalhes Adicionais</legend>
+                <label for="Bio">Sobre você:</label>
+                <textarea name="Bio" id="Bio" rows="3" placeholder="Fala um pouco sobre você..."></textarea><br>
+
+
+                <label for="linguagem">Línguagem Favorita:</label>
+                <input type="text" name="linguagem" id="linguagem" list="linguagens">
+                <datalist id="linguagens">
+                    <option value="HTML"></option>
+                    <option value="CSS"></option>
+                    <option value="JavaScript"></option>
+                    <option value="Python"></option>
+                    <option value="Java"></option>
+                </datalist>
+
+
+
+
+            </fieldset>
 
         </fieldset>
 
