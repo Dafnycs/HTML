@@ -6,7 +6,7 @@ body {
 
     /* FLEXBOX   
 
-    justify- content - controla como os itens são alinhados horizontalmente dentro do conteiner flex, quando a direção principal é horizontal (padrão: now)
+    justify-content - controla como os itens são alinhados horizontalmente dentro do conteiner flex, quando a direção principal é horizontal (padrão: now)
 
 
     Flex-start: alinhar os itens á esquerda
@@ -17,3 +17,41 @@ body {
     Space-evenly: Espaço exatamente igual entre todos itens
     (inclusive nas bordas)
     */
+
+
+        /*Align-itens 
+        flex-start: alinha os itens no topo
+        center: Centraliza verticalmente
+        Flex-end: alinha os itens na parte inferior
+        stretch: estica os itens para ocupar toda a largura
+        baseline: alinha com base na linha base do texto interno */
+
+
+
+
+        /* flex direction
+            row: Alinha os itens de esquerda para a direita
+            row-reverse: da direita para a esquerda
+            column: de cima para baixo
+            column-reverse:de baixo para cima */
+
+
+
+
+
+ .container {
+    display: flex;
+    justify-content: space-around;
+    background-color: gainsboro;
+    width: 500px;
+    height: 500px;
+ }           
+
+ .box{
+    background-color: aquamarine;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(0, 0, 0);
+
+
+ }
