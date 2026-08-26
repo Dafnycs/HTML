@@ -41,7 +41,9 @@ body {
 
  .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;  /*flex-start,flex end, space-between, sace-around, space-evenly */
+    align-items: center; /*flex-start, flex-end e centert */
+    flex-direction: column; /*row, row-reverse, column, column-reverse */
     background-color: gainsboro;
     width: 500px;
     height: 500px;
