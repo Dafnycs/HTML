@@ -1,0 +1,19 @@
+body {
+    background-color: rgba(0, 255, 255, 0.066);
+
+
+}  
+
+    /* FLEXBOX   
+
+    justify- content - controla como os itens são alinhados horizontalmente dentro do conteiner flex, quando a direção principal é horizontal (padrão: now)
+
+
+    Flex-start: alinhar os itens á esquerda
+    center: Centralizar os itens horizontalmente
+    flex-end: alinhar os itens á direita
+    Space=betwween: Espaçi igual entre os itens, o primeiro á esquerda e o último á direita
+    Space-around: Espaço igual ao redor de cada item (meio termmo entre os itens é maior)
+    Space-evenly: Espaço exatamente igual entre todos itens
+    (inclusive nas bordas)
+    */

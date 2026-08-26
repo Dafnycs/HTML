@@ -44,5 +44,5 @@ INLINE block
 ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨*/
 /* Ocupa só o espaço do conteudo, permite controlar o width e height */
 Inline-block{
-    display: inline-block;
+    display: Inline-block;
 }
