@@ -133,4 +133,43 @@ MENU DO TOPO
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;   /* Se a tela for pequena, os itens quebram para a linha de baixo em vez de espremer */
+    gap: 60px;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 90px 40px 110px;
  }
+
+ .hero texto{
+    flex: 1 1 480px;
+    /* 1 = pode cerscer para ocupar espeço extra
+       1 = pode encolher se faltar espaço
+       480px = tamho "ideial" de partida antes de crescer ou encolher */
+ }
+
+ .hero-texto h1 {
+    font-size: 44px;
+    margin-bottom: 22px;
+ }
+
+ .hero-texto p {
+    font-size: 18px;
+    margin-bottom: 30px;
+ }
+
+ .hero-botoes {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+ }
+
+ .hero-imagem {
+    flex: 1 1 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ /* .desenho-torno {
+    width: 100px;
+    max-width: 380%;
+ */
